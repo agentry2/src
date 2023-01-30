@@ -4,7 +4,7 @@ public class Animal {
     String gender;
         
     public void isMammal() { 
-    
+        System.out.println("This is a public method run() from class Animal");
     }
 
     public void mate() {
@@ -28,6 +28,6 @@ class Zebra extends Animal {
     public boolean is_wild;
 
     public void run() {
-        System.out.println("T");
+        System.out.println("This is a public method run() from subclass Zebra");
     }
 }
