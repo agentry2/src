@@ -14,6 +14,10 @@ public class Animal {
         
     }
     
+    Zebra myZebra;
+    Animal myAnimal;
+    Fish myFish;
+
 }
 
 class Fish extends Animal {
