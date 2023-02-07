@@ -17,6 +17,10 @@ public class App {
 
         query = scanner.nextInt();
 
+        if (query <= -2 && query >= 6){
+            System.out.println("Your input is not currently handled by this app. Please enter a number from -1 through 5.");
+        }
+
         if (query == -1) {
             scanner.close();
         } else
